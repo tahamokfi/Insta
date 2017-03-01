@@ -1,7 +1,7 @@
 ======
 Instagram Followers crawler
 ======
-https://img.shields.io/badge/Python-3.5-blue.svg.. image::
+.. image::https://img.shields.io/badge/Python-3.5-blue.svg
 
 Introduction
 ======
