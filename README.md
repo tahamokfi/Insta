@@ -2,12 +2,8 @@
 Instagram Followers crawler
 ======
 
-.. image:: https://img.shields.io/badge/Python-3.4%20and%203.5%20and%203.6-blue.svg
-   :alt: Python Version 3
-.. image:: https://img.shields.io/badge/Issuses-0%20open-green.svg
-   :alt: 0 Issues are open
-[![Build Status](https://travis-ci.org/ex0dus-0x/brut3k1t.svg?branch=master)](https://travis-ci.org/ex0dus-0x/brut3k1t)
-[![GitHub forks](https://img.shields.io/github/forks/ex0dus-0x/brut3k1t.svg)](https://github.com/ex0dus-0x/brut3k1t/network)
+[![Build Status]( https://img.shields.io/badge/Python-3.4%20and%203.5%20and%203.6-blue.svg)](https://python.com)
+[![GitHub forks](https://img.shields.io/badge/Issuses-0%20open-green.svg)](https://github.com/ex0dus-0x/brut3k1t/network)
 [![GitHub issues](https://img.shields.io/github/issues/ex0dus-0x/brut3k1t.svg)](https://github.com/ex0dus-0x/brut3k1t/issues)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/ex0dus-0x/brut3k1t/master/LICENSE)
 Overview
