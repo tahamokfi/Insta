@@ -1,6 +1,10 @@
 ======
 Instagram Followers crawler
 ======
+https://img.shields.io/badge/Python-3.5-blue.svg.. image::
+
+Introduction
+======
 There are two codes here which help you to crawl all of your followers and their followings. The main library which I used here is Selenium (you should install it before running the codes).
 You can directly download these python files and use them through command line or any Python IDE. 
 
