@@ -1,38 +1,12 @@
 ======
-Scrapy
+Instagram Followers crawler
 ======
 
-.. image:: https://img.shields.io/pypi/v/Scrapy.svg
-   :target: https://pypi.python.org/pypi/Scrapy
-   :alt: PyPI Version
-
-.. image:: https://img.shields.io/travis/scrapy/scrapy/master.svg
-   :target: http://travis-ci.org/scrapy/scrapy
-   :alt: Build Status
-
-.. image:: https://img.shields.io/badge/wheel-yes-brightgreen.svg
-   :target: https://pypi.python.org/pypi/Scrapy
-   :alt: Wheel Status
-
-.. image:: https://img.shields.io/codecov/c/github/scrapy/scrapy/master.svg
-   :target: http://codecov.io/github/scrapy/scrapy?branch=master
-   :alt: Coverage report
-
-.. image:: https://anaconda.org/conda-forge/scrapy/badges/version.svg
-   :target: https://anaconda.org/conda-forge/scrapy
-   :alt: Conda Version
-
+.. image:: https://img.shields.io/badge/Python-3.5-blue.svg
+   :alt: Python Version 3
 
 Overview
 ========
-
-======
-Instagram Followers crawler
-======
-.. image::https://img.shields.io/badge/Python-3.5-blue.svg
-
-Introduction
-======
 There are two codes here which help you to crawl all of your followers and their followings. The main library which I used here is Selenium (you should install it before running the codes).
 You can directly download these python files and use them through command line or any Python IDE. 
 
