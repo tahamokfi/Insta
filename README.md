@@ -2,8 +2,8 @@
 Instagram Followers crawler
 ======
 
-[![Build Status]( https://img.shields.io/badge/Python-3.4%20and%203.5%20and%203.6-blue.svg)(https://www.python.org)
-[![GitHub forks](https://img.shields.io/badge/Issues-0%20open-green.svg)
+[![Build Status]( https://img.shields.io/badge/Python-3.4%20and%203.5%20and%203.6-blue.svg)[(https://www.python.org)]
+[![GitHub forks](https://img.shields.io/badge/Issues-0%20open-green.svg)[(https://www.python.org)]
 
 Overview
 ========
