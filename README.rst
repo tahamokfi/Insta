@@ -2,7 +2,7 @@
 Instagram Followers crawler
 ======
 
-.. image:: https://img.shields.io/badge/Python-3.5-blue.svg
+.. image:: https://img.shields.io/badge/Python-3.4%20and%203.5%20and%203.6-blue.svg
    :alt: Python Version 3
 
 Overview
