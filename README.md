@@ -7,5 +7,6 @@ Here, I used “Phantomjs” as my default browser for Selenium which you can do
 
 ### First code: My_Followers.py
 
-This code will import all of your followers which you are following them as well. If you want to have access to your follower’s followers or follower’s followings you have to follow them. The output would be a “.CSV” file which contains list of your followers (not all of your followers just whom you are following :) )
-:+1
+This code will import all of your followers which you are following them as well. If you want to have access to your follower’s followers or follower’s followings you have to follow them. The output would be a “.CSV” file which contains list of your followers (not all of your followers just whom you are following)
+
+You have to input your username, password, and your Instagram ID which is usually the same as your username. The exported file will be saved in your user directory which usually you have the privilege to save data into it. At the end of the code the path of saved file will be printed out.
