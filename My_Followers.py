@@ -4,7 +4,6 @@ from selenium import webdriver
 import sys
 import bs4
 import time
-import time
 import random
 import selenium
 import pandas as pd
