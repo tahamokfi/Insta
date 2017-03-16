@@ -53,7 +53,7 @@ def Instfolme():
     pg1=driver.page_source
     elm1=bs4.BeautifulSoup(pg1,"lxml")
     tm1=elm1.find_all("a",{"class":"_4zhc5 notranslate _j7lfh"})
-    tm2=elm1.find_all("span",{"class":"_7k49n _hvnxx"})
+    tm2=elm1.find_all("span",{"class":"_7k49n"})
     #extrct text from followers and status link
     nm1=[]
     st1=[]
