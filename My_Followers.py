@@ -48,7 +48,7 @@ def Instfolme():
     for i in range(int(allfoll/2)):
         driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", dialog)
         time.sleep(random.randint(500,1000)/1000)
-        print("Extract friends %",round((i/(allfoll/2)*100),2),"from","%100")
+        print("Extracting friends %",round((i/(allfoll/2)*100),2),"from","%100")
     #get followers name and status
     pg1=driver.page_source
     elm1=bs4.BeautifulSoup(pg1,"lxml")
