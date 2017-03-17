@@ -33,19 +33,21 @@ def instfol(lis1,frnd=100,frnd1=3):
     elm4.click()
     time.sleep(5)
     for i in range(frnd1):
-        ln1=str("https://www.instagram.com/"+str(lis1[i])+"/")
-        driver.get(ln1)
-        nnm1=str(lis1[i])
-        time.sleep(3)
-        #Navigate to followers
-        elm4=driver.find_element_by_xpath("//div[2]/ul/li[2]")
-        elm4.click()
+        #Error
+        try:
+            #Navigate to profile and followers
+            ln1=str("https://www.instagram.com/"+str(lis1[i])+"/")
+            driver.get(ln1)
+            elm4=driver.find_element_by_xpath("//div[2]/ul/li[2]/a")
+            elm4.click()
+            time.sleep(2)
+        except NoSuchElementException:
+            sys.exit("Username or Password are incorrect")
         #find the followers window
-        time.sleep(1)
-        dialog = driver.find_elements_by_class_name('_4gt3b')
-        time.sleep(1)
+        dialog = driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div/div[2]')
         #find number of followers
-        allfoll=int(driver.find_element_by_xpath("//li[2]/a/span").text.replace(",",""))
+        allfoll=int(driver.find_element_by_xpath("//li[2]/a/span").text) 
+        nnm1=str(lis1[i])
         if allfoll>frnd:
             rng1=frnd
         else:
@@ -75,12 +77,12 @@ def instfol(lis1,frnd=100,frnd1=3):
     return(pr2,nm3)
 fol1=pd.read_csv(os.path.expanduser('~')+"\\Insta101.csv")
 fol1=fol1['0'].tolist()
-frnd = input("How many followers from each person do you want to have?  ")
-frnd1 = input("How many of your freinds do you want to search for?  ")
-fo1=instfol(fol1,int(frnd),int(frnd1))
+intfrnd = input("How many followers from each person do you want to have?  ")
+intfrnd1 = input("How many of your freinds do you want to search for?  ")
+fo1=instfol(fol1,frnd=int(intfrnd),frnd1=int(intfrnd1))
 nm1=[val for sublist in fo1[0] for val in sublist]
 nm2=[val for sublist in fo1[1] for val in sublist]
 fol3=pd.DataFrame([nm1,nm2]).T
+fol3.columns = ['From', 'To']
 fol3.to_csv(os.path.expanduser('~')+"\\Follist101.csv",index=False)
-fol3.columns=["From","To"]
-print("\n","\n","The CSV containing your friends and their followers is been saved here",os.path.expanduser('~')+"\\Insta101.csv")
+print("\n","\n","The CSV containing your friends and their followers is been saved here",os.path.expanduser('~')+"\\Follist101.csv")
