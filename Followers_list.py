@@ -42,7 +42,7 @@ def instfol(lis1,frnd=100,frnd1=3):
         elm4.click()
         #find the followers window
         time.sleep(1)
-        dialog = driver.find_elements_by_class_name('_4gt3b')[0]
+        dialog = driver.find_elements_by_class_name('_4gt3b')
         time.sleep(1)
         #find number of followers
         allfoll=int(driver.find_element_by_xpath("//li[2]/a/span").text.replace(",",""))
@@ -71,7 +71,7 @@ def instfol(lis1,frnd=100,frnd1=3):
         pr2.append(pr1)
         nm3.append(nm2)
         time.sleep(random.randint(500,1500)/1000)
-        print("Now extrcating "+nnm1+" Followers") 
+        print("Now extracting "+nnm1+" Followers") 
     return(pr2,nm3)
 fol1=pd.read_csv(os.path.expanduser('~')+"\\Insta101.csv")
 fol1=fol1['0'].tolist()
