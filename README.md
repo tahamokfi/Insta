@@ -22,7 +22,8 @@ You have to input your username, password, and your Instagram ID which is usuall
 ### Second code: Followers_list.py
 ----------------------
 
-This code will import all of your followers of your followers. The output again would be a “.CSV” file which contains list of your followers and their followers. 
+This code will import all your followers of your followers. The output again would be a “.CSV” file which contains list of your followers and their followers. This csv file is like an edge list the first column is from and the second column is to.
 
-First you have to specify how many of your freinds do you want to export and in for each freind how many
-You have to input your username, password, and your Instagram ID which is usually the same as your username. The exported file will be saved in your user directory which usually you have the privilege to save data into it. At the end of the code the path of saved file will be printed out.
+First you have to specify how many of your freinds do you want to export and in for each friend how many followers you need. Mention that this code uses the output of first code so you have to run first code first to get your own followers. Like the last code, this asks you to input your username, password, and your Instagram ID which is usually the same as your username. The exported file will be saved in your user directory which usually you have the privilege to save data into it. At the end of the code the path of saved file will be printed out.
+
+
