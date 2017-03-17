@@ -15,7 +15,7 @@ def instfol(lis1,frnd=100,frnd1=3):
     pass1 = input("Please enter your Password: ")
     id1 = input("Please enter your Instagram ID (might be same as UserName):")
     #start driver
-    driver=webdriver.Chrome()
+    driver=webdriver.PhantomJS()
     print("\n","\n","Please wait!")
     driver.set_window_size(1120, 550)
     driver.get("https://www.instagram.com/accounts/login/")
